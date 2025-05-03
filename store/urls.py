@@ -19,5 +19,6 @@ from django.urls import path,include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('playground/',include('playground.urls'))
+    path('kafka_app/', include('kafka_app.urls')),
+    # path('playground/',include('playground.urls'))
 ]
